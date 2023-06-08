@@ -48,5 +48,14 @@
         </ContentPage>
     </FlyoutItem>
 
+    <FlyoutItem Title="Weather" Icon="{StaticResource SettingsIcon}">
+        <ContentPage Title="Weather">
+            <StackLayout Margin="20">
+                <Label Text="Placeholder for settings" FontSize="Caption" />
+                <Label Text="Add controls here" FontSize="Body" />
+            </StackLayout>
+        </ContentPage>
+    </FlyoutItem>
+
     <ShellContent ContentTemplate="{DataTemplate views:AboutView}" Title="About" Icon="{StaticResource AboutIcon}" />
 </Shell>

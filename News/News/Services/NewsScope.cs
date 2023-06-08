@@ -4,6 +4,8 @@
     {
         Headlines,
         Local,
-        Global
+        Global,
+        Weather,
+
     }
 }
