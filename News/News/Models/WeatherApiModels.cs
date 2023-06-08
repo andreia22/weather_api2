@@ -43,4 +43,11 @@ namespace News.Models
         public double speed { get; set; }
         public int deg { get; set; }
     }
+
+    public class WeatherResult
+    {
+        public string Status { get; set; }
+        public int TotalResults { get; set; }
+        public List<Weather> Weathers { get; set; }
+    }
 }
