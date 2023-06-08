@@ -35,6 +35,21 @@
                 </ShellContent.ContentTemplate>
 
             </ShellContent>
+
+            <ShellContent Title="Weather"
+                          Route="duckweater">
+
+                <ShellContent.ContentTemplate>
+                    <DataTemplate>
+                        <views:HeadlinesView>
+                            <x:Arguments>
+                                <x:String>Weather</x:String>
+                            </x:Arguments>
+                        </views:HeadlinesView>
+                    </DataTemplate>
+                </ShellContent.ContentTemplate>
+
+            </ShellContent>
         </Tab>
 
     </FlyoutItem>
@@ -51,8 +66,8 @@
     <FlyoutItem Title="Weather" Icon="{StaticResource SettingsIcon}">
         <ContentPage Title="Weather">
             <StackLayout Margin="20">
-                <Label Text="Placeholder for settings" FontSize="Caption" />
-                <Label Text="Add controls here" FontSize="Body" />
+                <Label Text="Aqui tem que aparecer a previsão" FontSize="Caption" />
+                <Label Text="Historico de Previsões" FontSize="Body" />
             </StackLayout>
         </ContentPage>
     </FlyoutItem>
