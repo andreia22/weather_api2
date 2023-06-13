@@ -28,15 +28,7 @@ namespace News.Models
         public double temp_max { get; set; }
     }
 
-    public class Root
-    {
-        public int dt { get; set; }
-        public List<Weather> weather { get; set; }
-        public Main main { get; set; }
-        public Wind wind { get; set; }
-        public Clouds clouds { get; set; }
-    }
-
+   
 
     public class Wind
     {
