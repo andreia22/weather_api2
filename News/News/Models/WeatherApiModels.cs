@@ -46,8 +46,10 @@ namespace News.Models
 
     public class WeatherResult
     {
-        public string Status { get; set; }
-        public int TotalResults { get; set; }
-        public List<Weather> Weathers { get; set; }
+        public int dt { get; set; }
+        public List<Weather> weather { get; set; }
+        public Main main { get; set; }
+        public Wind wind { get; set; }
+        public Clouds clouds { get; set; }
     }
 }
